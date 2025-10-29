@@ -8,8 +8,6 @@
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-   <link href="https://docs.google.com/forms/d/e/1FAIpQLSfozHw42PquNJzwdCDYM1nCTV6BHNvwhEVRCnWVvWc3drAHHg/viewform?usp=header">
-    target="_blank"
 
   <!-- Styles -->
   <link rel="stylesheet" href="index.css" />
@@ -21,7 +19,7 @@
 
   <header class="site-header">
     <nav class="nav container">
-      <a class="logo" href="#hero">Ratul</a>
+      <a class="logo" href="#hero">Home</a>
       <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
         <span class="hamburger"></span>
       </button>
@@ -29,7 +27,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
         <li><a class="cta" href="#contact">Hire Me</a></li>
       </ul>
     </nav>
@@ -57,19 +54,19 @@
 
           <ul class="social-inline">
             <li>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub Profile" class="github">
+              <a href="https://github.com/RafsanBro" target="_blank" rel="noopener" aria-label="GitHub Profile" class="github">
                 <img src="assets/logos/github-white.svg" alt="GitHub" width="24" height="24">
                 <span>GitHub</span>
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn Profile" class="linkedin">
+              <a href="https://www.linkedin.com/in/rafsan-ahmed-9787b0228/" target="_blank" rel="noopener" aria-label="LinkedIn Profile" class="linkedin">
                 <img src="assets/logos/linkedin-white.svg" alt="LinkedIn" width="24" height="24">
                 <span>LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" aria-label="Twitter Profile" class="twitter">
+              <a href="https://www.facebook.com/profile.php?id=61575681944714" target="_blank" rel="noopener" aria-label="Twitter Profile" class="twitter">
                 <img src="assets/logos/twitter-white.svg" alt="Twitter" width="24" height="24">
                 <span>Twitter</span>
               </a>
@@ -80,20 +77,42 @@
         <div class="hero-card">
           <div class="contact-card">
             <!-- Profile photo: placeholder at images/profile.svg — replace with your photo if you want -->
-            <div class="contact-photo">
-              <img src="profile.jpg" alt="Rafsan Ahmed Ratul" width="140" height="140">
-            </div>
+            <!-- Profile photo -->
+<div class="contact-photo">
+  <img src="images/profile.jpg" alt="Rafsan Ahmed Ratul" width="140" height="140">
+</div>
 
-            <h3>Contact</h3>
-            <p>Email: <a href="mailto:ratul@domain.com">ratul@domain.com</a></p>
-            <p>Location: Dhaka, Bangladesh</p>
-              <a class="download-resume" href="#" download="Rafsan_Ahmed_Ratul_Resume.pdf" aria-label="Download resume">
-                <img src="assets/logos/resume.svg" alt="Resume" width="16" height="16" aria-hidden="true">
-                <span>Download Resume</span>
-              </a>
-          </div>
-        </div>
-      </div>
+<!-- Email section with icon -->
+<p style="font-family: 'Inter', sans-serif; color:#0f172a; font-size:16px; display:flex; align-items:center; justify-content:center; gap:10px; margin:10px 0;">
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" 
+       alt="Email" 
+       style="width:22px; height:22px; vertical-align:middle; filter:drop-shadow(0 1px 2px rgba(0,0,0,0.15));">
+  <a href="mailto:rafsanahmed308@gmail.com" 
+     style="color:#0ea5e9; text-decoration:none; font-weight:600; transition:color 0.3s;">
+     rafsanahmed308@gmail.com
+  </a>
+</p>
+
+<!-- Location -->
+<p style="margin:8px 0; display:flex; align-items:center; justify-content:center; gap:10px; font-family:'Inter', sans-serif; font-size:16px; color:#374151;">
+  <a href="https://www.google.com/maps/place/Dhaka,+Bangladesh" 
+     target="_blank" 
+     style="display:flex; align-items:center; gap:8px; color:#0ea5e9; text-decoration:none; font-weight:600;">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" 
+         alt="Location" 
+         style="width:22px; height:22px; vertical-align:middle; filter:drop-shadow(0 1px 2px rgba(0,0,0,0.15));">
+    <span>Dhaka, Bangladesh</span>
+  </a>
+</p>
+
+
+<!-- Download Resume button -->
+<a class="download-resume" href="CV.pdf" download="RAFSAN AHMED CV.pdf" aria-label="Download resume" 
+   style="display:inline-flex; align-items:center; gap:8px; margin-top:10px; padding:.55rem .9rem; border-radius:10px; background:#0ea5e9; border:none; color:white; text-decoration:none; font-weight:600; box-shadow:0 6px 18px rgba(14,165,233,0.18); transition:transform .14s ease, box-shadow .14s ease, background .14s ease;">
+  <img src="assets/logos/resume.svg" alt="Resume" width="16" height="16" aria-hidden="true" style="filter:brightness(0) invert(1);">
+  <span>Download Resume</span>
+</a>
+
     </section>
 
     <!-- About -->
@@ -101,11 +120,11 @@
       <h2 class="section-title">About</h2>
       <div class="about-grid">
         <div class="about-left">
-          <p>I am <strong>Rafsan Ahmed Ratul</strong>, a passionate developer studying Computer Science & Engineering and preparing for BCS with a goal of joining the Police Cadre. I enjoy bike riding and exploring new places. I build maintainable web apps and love solving real-world problems with elegant code.</p>
-          <p>I have experience with HTML, CSS, JavaScript, Python, and data-related projects. I love to learn, teach, and improve every day.</p>
+          <p>I am <strong>Rafsan Ahmed Ratul</strong>, a Computer Science & Engineering student at American International University Bangladesh with a strong passion for technology, leadership, and social work. Currently, I work as a web application developer while exploring Data Science and AI, aiming to sharpen my analytical skills and tackle real-world challenges.</p>
+          <p> I enjoy creating maintainable web applications, learning new technologies, and contributing to social initiatives that make a positive impact. I thrive on solving problems and continuously improving, both personally and professionally.</p>
           <div class="stats">
-            <div class="stat"><strong>4+</strong><span>Years learning</span></div>
-            <div class="stat"><strong>10+</strong><span>Projects</span></div>
+            <div class="stat"><strong>3+</strong><span>Years learning</span></div>
+            <div class="stat"><strong>2+</strong><span>Projects</span></div>
             <div class="stat"><strong>Open</strong><span>To opportunities</span></div>
           </div>
         </div>
@@ -278,17 +297,44 @@
             <button type="submit" class="btn-primary">Send Message</button>
             <button type="reset" class="btn-ghost">Reset</button>
           </div>
-          <p class="note">Or email directly: <a href="mailto:ratul@domain.com">ratul@domain.com</a></p>
+          
         </form>
 
         <div class="contact-info">
           <h3>Reach out to Rafsan Ahmed Ratul</h3>
           <p>I’m open to freelancing, collaboration, and full-time opportunities. Typically reply within 2–3 days.</p>
-          <ul class="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:ratul@domain.com">ratul@domain.com</a></li>
-            <li><strong>Location:</strong> Dhaka, Bangladesh</li>
-            <li><strong>Phone:</strong> +880 1XX-XXXXXXX</li>
-          </ul>
+         <!-- Font Awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<ul class="contact-list" style="list-style:none; padding:0; margin:0; font-family:'Inter', sans-serif; font-size:15px; color:#0f172a;">
+  
+  <!-- Email -->
+  <li style="margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+    <i class="fas fa-envelope" style="color:#0078D7; font-size:16px;"></i>
+    <strong style="color:#1e293b;">Email:</strong>
+    <a href="mailto:rafsanahmed308@gmail.com" style="color:#0ea5e9; text-decoration:none; font-weight:500;">
+      rafsanahmed308@gmail.com
+    </a>
+  </li>
+
+  <!-- Phone -->
+  <li style="margin-bottom:10px; display:flex; align-items:center; gap:8px;">
+    <i class="fas fa-phone" style="color:#10B981; font-size:16px;"></i>
+    <strong style="color:#1e293b;">Phone:</strong>
+    <span style="color:#334155;">+8801788776453</span>
+  </li>
+
+  <!-- Location -->
+  <li style="display:flex; align-items:center; gap:8px;">
+    <i class="fas fa-map-marker-alt" style="color:#F59E0B; font-size:16px;"></i>
+    <strong style="color:#1e293b;">Location:</strong>
+    <a href="https://www.google.com/maps/place/Dhaka,+Bangladesh" target="_blank" style="color:#0ea5e9; text-decoration:none; font-weight:500;">
+      Dhaka, Bangladesh
+    </a>
+  </li>
+
+</ul>
+
         </div>
       </div>
     </section>
@@ -310,5 +356,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-
